@@ -1,0 +1,15 @@
+{
+  "name": "test-task",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "processor": "bun run src/processor/cli.ts",
+    "test": "bun test",
+    "test:load": "bun test ./load-tests --timeout 180000",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/bun": "^1.4.4",
+    "typescript": "^7.0.2"
+  }
+}
