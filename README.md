@@ -126,6 +126,14 @@ A worker loop:
 
 ## How this was built
 
+| | |
+| --- | --- |
+| Started | 2026-11-05 17:59 UTC |
+| Ended | 2026-11-05 20:36 UTC |
+| Duration | about 2h 37m, in one Claude Code session |
+
+`HISTORY.md` lists every message I sent to Claude Code during that session, with timestamps.
+
 The architecture and design decisions are mine, made step by step. The code, tests and
 documentation were written by Claude Code (Anthropic) following my instructions. The AI made
 mistakes along the way, and I reviewed each step and fixed some of them. I also edited some files
